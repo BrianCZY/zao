@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\list_layout_animation.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\list_layout_animation.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\push_top_in.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_slid_right_out.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\activity_slid_right_out.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\exit_to_left_animation.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\exit_to_left_animation.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\list_layout_animation.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\list_layout_animation.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\exit_to_right_animaion.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\exit_to_right_animaion.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_slid_left_in.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\activity_slid_left_in.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_slid_left_out.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\activity_slid_left_out.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\enter_from_left_animation.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\enter_from_left_animation.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_slid_left_in.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\activity_slid_left_in.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\exit_to_bottom_animaion.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\exit_to_bottom_animaion.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\enter_from_top_animation.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\enter_from_top_animation.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\enter_from_bottom_animtion.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\enter_from_bottom_animtion.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\exit_to_right_animaion.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\exit_to_right_animaion.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\enter_from_bottom_animtion.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\enter_from_bottom_animtion.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_slid_right_out.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\activity_slid_right_out.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\enter_from_top_animation.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\enter_from_top_animation.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\push_top_in.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_slid_right_in.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\activity_slid_right_in.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\enter_from_left_animation.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\enter_from_left_animation.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\button_slid_bottom_in.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\button_slid_bottom_in.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\exit_to_left_animation.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\exit_to_left_animation.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\enter_from_right_animation.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\enter_from_right_animation.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\exit_to_bottom_animaion.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\exit_to_bottom_animaion.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\exit_to_top_animation.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\exit_to_top_animation.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\enter_from_right_animation.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\enter_from_right_animation.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_slid_left_out.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\activity_slid_left_out.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\button_slid_bottom_in.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\button_slid_bottom_in.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\exit_to_top_animation.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\exit_to_top_animation.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_slid_right_in.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\anim\\activity_slid_right_in.xml"
+    }
+]

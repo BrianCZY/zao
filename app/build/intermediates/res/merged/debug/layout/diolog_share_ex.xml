@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- 回复标题 -->
+
+    <TextView
+        android:id="@+id/dialog_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#45CE88"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/share_ex"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <!-- 输入框 -->
+
+        <EditText
+            android:id="@+id/shareCont_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text"
+            android:gravity="left"
+            android:hint="@string/writeDownYourShare"
+            android:inputType="textMultiLine"
+            android:minLines="6"
+            android:padding="5dp" >
+        </EditText>
+    </LinearLayout>
+    <!-- 水平布局   （取消——发送 ）  按钮 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/divider_h"
+        android:orientation="vertical"
+        android:showDividers="beginning" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider_w"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:showDividers="middle" >
+
+            <!-- 取消按钮 -->
+
+            <TextView
+                android:id="@+id/cancel_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/concel"
+                android:textColor="@drawable/text_selector"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/confirm_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/send"
+                android:textColor="@drawable/text_selector"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

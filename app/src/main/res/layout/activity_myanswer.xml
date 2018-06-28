@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingTop="3dp"
+    android:background="@drawable/recisempty"
+    android:id="@+id/myAns_layout">
+<android.support.v4.widget.SwipeRefreshLayout
+    android:id="@+id/swipe_refresh_my_ans"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ListView  android:layoutAnimation="@anim/list_layout_animation"
+        android:id="@+id/myAnswer_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="5dp"
+        android:listSelector="@android:color/transparent" />
+</android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp" >
+
+        <!-- 给每个item增加background -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.hzu.zao.view.CircleImageView
+                android:id="@+id/search_us_icon"
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/usericon_default" />
+
+            <TextView
+                android:id="@+id/search_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/search_us_icon"
+                android:text="Name" />
+
+            <ImageView
+                android:id="@+id/search_sex"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignTop="@+id/search_name"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/search_name"
+                android:background="@drawable/woman_icon" />
+
+            <TextView
+                android:id="@+id/search_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/search_sex"
+                android:text="@string/QuesDate" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/sh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/share_ex"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/search_detail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sh"
+                android:layout_marginTop="10dp"
+                android:text="分享信息的内容5555555"
+                android:background="@drawable/textview_border"
+                android:gravity="left"
+                android:minLines="5"
+                android:padding="10dp"
+                android:textSize="18sp"
+                 />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

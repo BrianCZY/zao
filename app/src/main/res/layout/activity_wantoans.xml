@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/recisempty"
+    android:id="@+id/wanto_layout" >
+
+    <!-- 此处需设置listView背景 -->
+
+ <android.support.v7.widget.Toolbar
+     android:id="@+id/tb_want_ans"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/green"/>
+
+    
+    <com.hzu.zao.view.XListView
+        android:layoutAnimation="@anim/list_layout_animation"
+        android:id="@+id/WanToAns_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="5dp"
+        android:listSelector="@android:color/transparent" 
+        >
+    </com.hzu.zao.view.XListView>
+    <!-- 一定要将divider设置为@null,dividerHeight控制卡片上下距离 -->
+
+</LinearLayout>

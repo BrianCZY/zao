@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_want_ans_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp">
+
+        <ListView
+            android:id="@+id/wand_listV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:dividerHeight="5dp"
+            android:layoutAnimation="@anim/list_layout_animation"
+            android:listSelector="@android:color/transparent"
+            android:paddingBottom="40dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_input_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+
+                android:background="@drawable/edit_text"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/ans_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:hint="@string/writeDownYourComment"
+                    android:padding="7dp"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/im_content_dialog_share_emotion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dp4"
+                    android:background="@drawable/sele_add_enomotion"
+                    android:scaleType="centerInside" />
+
+                <ImageView
+                    android:id="@+id/wdt_send"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:clickable="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/send_selector" />
+
+
+            </LinearLayout>
+
+            <include
+                layout="@layout/content_popup_window_emotion_panel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!--<include layout="@layout/include_two_progress_bar" />-->
+
+    </RelativeLayout>
+
+</LinearLayout>

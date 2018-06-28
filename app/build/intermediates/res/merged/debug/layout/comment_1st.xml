@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <com.hzu.zao.view.CircleImageView
+            android:id="@+id/wand_user_icon"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:src="@drawable/usericon_default" />
+
+        <TextView
+            android:id="@+id/wand_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/wand_user_icon"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:text="name" />
+
+        <TextView
+            android:id="@+id/wand_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/wand_username"
+            android:layout_alignParentRight="true"
+
+            android:text="2015-04-06 20:15" />
+
+        <ImageView
+            android:id="@+id/wand_sex"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/wand_username"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/wand_username"
+            android:background="@drawable/man_icon" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/QuesAt"
+        android:textColor="@color/_gray"
+         />
+
+    <TextView
+        android:id="@+id/wand_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="提出问题内容"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <com.hzu.zao.view.MultiImageView.MultiImageView
+        android:id="@+id/miv_want_ans_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" />
+
+</LinearLayout>

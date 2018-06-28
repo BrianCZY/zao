@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#fd8d8d</color>
+    <color name="green">#00cd66</color>
+    <color name="dark_green">#01b75b</color>
+    <color name="blue">#8d9dfd</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#E6FFCC</color>
+    <color name="greenLight">#98FB98</color>
+    <color name="gray">#dddddd</color>
+    <color name="tv_green">#45CE88</color>
+    <color name="t_blue">#047de4</color>
+    <color name="red_p">#F84241</color>
+    <color name="red_np">#ea2828</color>
+    <color name="_gray">#bcbcbc</color>
+    <color name="l_gray">#d0d3d4</color>
+    <color name="sl_gray">#dfe1e2</color>
+    <color name="ssl_gray">#f2f2f3</color>
+    <color name="sssl_gray">#f8f8f8</color>
+    <color name="d_gray">#aaa9a9</color>
+    <color name="dark">#FF222222</color>
+    <color name="light">#FFEEEEEE</color>
+    <color name="color_name">#223391</color>
+    <color name="darker_gray">#eeeeee</color>
+    <color name="trans_theme_color">#a000cd66</color>
+    <color name="translucent">#80ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="trans_gray">#304e4e4e</color>
+    <color name="tran_gray">#c8dddddd</color>
+
+</resources>

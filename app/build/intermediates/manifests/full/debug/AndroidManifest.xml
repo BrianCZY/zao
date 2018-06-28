@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hzu.zao"
+    android:versionCode="7"
+    android:versionName="2.3" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- BmobPush SDK权限 -->
+    <permission
+        android:name="cn.bmob.permission.push"
+        android:protectionLevel="normal" />
+
+    <uses-permission android:name="cn.bmob.permission.push" />
+ <!-- 添加自定义的权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <!--
+             BMOB_CHANNEL用来标注应用推广渠道，不同渠道可以上传不同更新包，
+        	您可以使用20位以内的英文和数字为渠道定名，替换value中的Channel ID。
+        	如果不添加，将不区分渠道。
+    -->
+    <meta-data
+        android:name="BMOB_CHANNEL"
+        android:value="12" />
+
+    <application
+        android:name="com.hzu.zao.config.MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.hzu.zao.SplashActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hzu.zao.LoginActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.hzu.zao.MainActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.hzu.zao.WanToAnsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.hzu.zao.RecommActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.hzu.zao.EditUserActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.hzu.zao.SettingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.hzu.zao.SearchAcitivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.hzu.zao.RegistActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.hzu.zao.ForgetPwdActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.hzu.zao.ExperienceActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.hzu.zao.SearchExperienceActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.hzu.zao.SearchDetailActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" />
+        <activity
+            android:name="com.hzu.zao.WanToAnsDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.hzu.zao.ExDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- 分享经验 -->
+        <activity
+            android:name="com.hzu.zao.ShareExpertenceActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- 选择照片 -->
+        <activity
+            android:name="me.nereo.multi_image_selector.MultiImageSelectorActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/mAppTheme" />
+        <!-- 图片编辑 -->
+        <activity
+            android:name="com.hzu.zao.ImageEditorActivity"
+            android:theme="@style/AppTheme.Translucent2" />
+        <!-- 查看大图 -->
+        <activity
+            android:name="com.hzu.zao.BigPicActivity"
+            android:theme="@style/AppTheme.Translucent2" />
+        <!-- 提出问题 -->
+        <activity
+            android:name="com.hzu.zao.CommitQuestionActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- 用户管理 -->
+        <activity
+            android:name="com.hzu.zao.UserManagerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- 更新组件使用对话框 -->
+        <activity
+            android:name="cn.bmob.v3.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name="cn.bmob.push.lib.service.PushService"
+            android:exported="true"
+            android:label="PushService"
+            android:permission="cn.bmob.permission.push"
+            android:process="cn.bmob.push" >
+            <intent-filter>
+                <action android:name="cn.bmob.push.lib.service.PushService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="cn.bmob.push.PushReceiver" >
+            <intent-filter android:priority="2147483647" >
+ <!-- 优先级加最高 -->
+                <!-- 系统启动完成后会调用 -->
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <!-- 解锁完成后会调用 -->
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <!-- 监听网络连通性 -->
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.hzu.zao.push.MyPushMessageReceiver" >
+            <intent-filter>
+                <action android:name="cn.bmob.push.action.MESSAGE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- BmobPush end -->
+
+    </application>
+
+</manifest>

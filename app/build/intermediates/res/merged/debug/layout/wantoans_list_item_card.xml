@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="beforeDescendants">
+
+    <!-- 为突出卡片效果，需设置左右padding,上下通过listView的divider设置 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background_selector"
+        android:descendantFocusability="afterDescendants"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp">
+
+        <!-- 给每个item增加background -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.hzu.zao.view.CircleImageView
+                android:id="@+id/user_icon_wanToAns"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/usericon_default" />
+
+            <TextView
+                android:id="@+id/name_wanToAns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/user_icon_wanToAns"
+                android:text="Name" />
+
+            <ImageView
+                android:id="@+id/sex_wanToAns"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignTop="@+id/name_wanToAns"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/name_wanToAns"
+                android:background="@drawable/woman_icon" />
+
+            <TextView
+                android:id="@+id/creat_date_wanToAns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/sex_wanToAns"
+                android:layout_alignParentRight="true"
+                android:text="@string/QuesDate" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/QuesAt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QuesAt"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/userQuestion_wanToAns"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/QuesAt"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:text="@string/QuesText"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <com.hzu.zao.view.MultiImageView.MultiImageView
+            android:id="@+id/miv_want_ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp4" />
+
+    </LinearLayout>
+
+</FrameLayout>

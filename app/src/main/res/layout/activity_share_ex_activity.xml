@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_share_message"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/green" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tb_share_message"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_contnent_popupwin_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp4"
+            android:background="@color/white"
+            android:gravity="start"
+            android:hint="@string/share_what_hint"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:padding="@dimen/dp4">
+
+            <requestFocus />
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp4">
+
+
+
+            <ImageView
+                android:id="@+id/im_activity_share_message_addimg"
+                android:layout_width="@dimen/size_image"
+                android:layout_height="@dimen/size_image"
+                android:layout_marginLeft="@dimen/dp4"
+                android:background="@drawable/sele_add_image"
+                android:scaleType="centerInside" />
+
+            <ImageView
+                android:id="@+id/im_content_dialog_share_emotion"
+                android:layout_width="@dimen/size_image"
+                android:layout_height="@dimen/size_image"
+                android:layout_marginLeft="@dimen/dp4"
+                android:background="@drawable/sele_add_enomotion"
+                android:scaleType="centerInside" />
+
+        </LinearLayout>
+
+        <!--图片-->
+        <com.hzu.zao.view.MultiImageView.MultiImageView
+            android:id="@+id/miv_share_message_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp4"
+            />
+
+
+    </LinearLayout>
+
+    <include layout="@layout/content_popup_window_emotion_panel" />
+</RelativeLayout>

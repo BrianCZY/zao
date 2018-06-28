@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_share_send.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\menu\\menu_share_send.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_share_send.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\menu\\menu_share_send.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_share_iamge_delete.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\menu\\menu_share_iamge_delete.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_share_iamge_delete.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\menu\\menu_share_iamge_delete.xml"
+    },
+    {
+        "merged": "D:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_context_image_option.xml",
+        "source": "D:\\AS workSpace\\zao\\app\\src\\main\\res\\menu\\menu_context_image_option.xml"
+    },
+    {
+        "merged": "F:\\AS workSpace\\zao\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_context_image_option.xml",
+        "source": "F:\\AS workSpace\\zao\\app\\src\\main\\res\\menu\\menu_context_image_option.xml"
+    }
+]
